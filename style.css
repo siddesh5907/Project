@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: rgb(226, 203, 203);
+}
+
+.main
+{
+    display: block;
+    background: rgb(252, 249, 249) ;
+    text-align: center;
+    width: 40%; 
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(14, 8, 8, 0.4);
+    padding-bottom: 1;
+}
+
+.box
+{   
+    width: 500px;
+}
+
+input
+{
+    margin: 20px;
+    height: 30px;
+    text-align: center;   
+}
+
+.responseForm
+{
+	width:500px;
+}
+
+.responseForm input[type="text"]
+{
+    width: 240px;  
+}
+
+.loginButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height:30px;
+    position: absolute;
+    color:whitesmoke;
+    top:15px;
+    right: 20px;
+    padding:10px;
+    background: brown;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(14, 8, 8, 0.4);
+}
+
+.loginButton:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(14, 8, 8, 0.4);
+}
+
+.loginBox , .logc
+{
+    display: none;
+    background: skyblue;
+    position: absolute;
+    width: 300px;
+    top:20%;
+    right: 40%;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(14, 8, 8, 0.8);
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid darkcyan;
+
+}
+
+.logc
+{
+    display:inline-block;
+}
+
+
+
+
